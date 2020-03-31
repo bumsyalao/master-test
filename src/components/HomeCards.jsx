@@ -12,7 +12,8 @@ const StyledHomeCard = styled.div`
   border-radius: 24px;
 `;
 
-const HomeCards = () => {
+const HomeCards = ({home}) => {
+  // console.log(home.name, '===homez')
   return(
     <StyledHomeCard>
     </StyledHomeCard>

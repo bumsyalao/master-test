@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 import NavBar from './components/NavBar';
-import SearchBar from './components/SearchBar';
 import Home from './components/Home';
 
 
@@ -23,7 +22,6 @@ const App = () => {
   return (
     <StyledApp id="app">
       <NavBar />
-      <SearchBar />
       <Home />
     </StyledApp>
   );

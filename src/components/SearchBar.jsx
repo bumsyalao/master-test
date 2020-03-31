@@ -3,8 +3,7 @@ import styled from 'styled-components';
 
 
 const StyledSearchBar = styled.div``;
-const StyledSearchBarContent = styled.div`
-`;
+const StyledSearchBarContent = styled.form``;
 const Input = styled.input`
   background-color: #1a1a1a;
   width: 50vw;
@@ -18,11 +17,16 @@ const Input = styled.input`
   outline: none;
 `;
 
-const SearchBar = () => {
+const SearchBar = ({searchHome }) => {
+
+  const onChange = ({ target }) => {
+    searchHome(target.value)
+  }
+
   return (
     <StyledSearchBar>
-      <StyledSearchBarContent>
-        <Input type="text" placeholder="Search.." />
+      <StyledSearchBarContent >
+        <Input type="text" placeholder="Search.." onChange={onChange} />
       </StyledSearchBarContent>
     </StyledSearchBar>
   )
