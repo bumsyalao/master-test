@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styled from 'styled-components';
+import axios from 'axios';
 
 const StyledNavBar = styled.div``;
 const StyledNavBarContent = styled.div`
@@ -36,6 +37,18 @@ const StyledNavBarExplore = styled.div`
 `;
 
 const NavBar = () => {
+  const [user, setUser] = useState([]);
+
+  const loginUser = () => {
+    axios.post('/users', {
+      name: 'Flintstone',
+      likedHomes: []
+    })
+    .then(res => setUser(res.data))
+    .catch(error => {
+      console.log(error);
+    });
+  }
   return(
     <StyledNavBar>
       <StyledNavBarContent>
@@ -48,8 +61,8 @@ const NavBar = () => {
         <StyledNavBarHome>
           <i className="mdi mdi-home-outline" />
         </StyledNavBarHome>
-        <StyledNavBarProfile>
-          <i className="mdi mdi-account-outline" />
+        <StyledNavBarProfile onClick={loginUser}>
+          {user.name ? user.name : <i className="mdi mdi-account-outline" />}
         </StyledNavBarProfile>
       </StyledNavBarContent>
     </StyledNavBar>

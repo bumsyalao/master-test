@@ -5,7 +5,7 @@ export const UserContext = createContext();
 const initialState = {
   users: {
     id: 1,
-    name: "",
+    name: 'Flintstone',
     likedHomes: []
   },
   loading: false,

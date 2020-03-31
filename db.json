@@ -2,8 +2,8 @@
   "homes": [
     {
       "id": 1,
-      "name":"Spacious luxury apartment with stunning panoramic views",
-      "price": "100,000 AED / Year" ,
+      "name": "luxury apartment",
+      "price": "100,000 AED / Year",
       "closeBy": true,
       "rooms": 3,
       "baths": 3,
@@ -12,14 +12,14 @@
       "location": "Ocean Heights",
       "type": "Apartment",
       "floor": "Floor 6",
-      "city":"Dubai Marina",
+      "city": "Dubai Marina",
       "furniture": "Unfurnished",
       "reference number": "RN.1234567891"
     },
     {
       "id": 2,
-      "name":"Spacious luxury apartment with stunning panoramic views",
-      "price": "100,000 AED / Year" ,
+      "name": "Spacious apartment",
+      "price": "100,000 AED / Year",
       "closeBy": true,
       "rooms": 3,
       "baths": 3,
@@ -28,14 +28,14 @@
       "location": "Ocean Heights",
       "type": "Apartment",
       "floor": "Floor 6",
-      "city":"Dubai Marina",
+      "city": "Dubai Marina",
       "furniture": "Unfurnished",
       "reference number": "RN.1234567891"
     },
     {
       "id": 3,
-      "name":"New Building",
-      "price": "100,000 AED / Year" ,
+      "name": "New Building",
+      "price": "100,000 AED / Year",
       "closeBy": true,
       "rooms": 3,
       "baths": 3,
@@ -44,14 +44,14 @@
       "location": "Ocean Heights",
       "type": "Apartment",
       "floor": "Floor 6",
-      "city":"Dubai Marina",
+      "city": "Dubai Marina",
       "furniture": "Unfurnished",
       "reference number": "RN.1234567891"
     },
-    { 
+    {
       "id": 4,
-      "name":"Spacious luxury apartment with stunning panoramic views",
-      "price": "100,000 AED / Year" ,
+      "name": "panoramic views",
+      "price": "100,000 AED / Year",
       "closeBy": true,
       "rooms": 3,
       "baths": 3,
@@ -60,14 +60,14 @@
       "location": "Ocean Heights",
       "type": "Apartment",
       "floor": "Floor 6",
-      "city":"Dubai Marina",
+      "city": "Dubai Marina",
       "furniture": "Unfurnished",
       "reference number": "RN.1234567891"
     },
     {
       "id": 5,
-      "name":"Spacious luxury apartment with stunning panoramic views",
-      "price": "100,000 AED / Year" ,
+      "name": "Spacious luxury ",
+      "price": "100,000 AED / Year",
       "closeBy": true,
       "rooms": 3,
       "baths": 3,
@@ -76,14 +76,14 @@
       "location": "Ocean Heights",
       "type": "Apartment",
       "floor": "Floor 6",
-      "city":"Dubai Marina",
+      "city": "Dubai Marina",
       "furniture": "Unfurnished",
       "reference number": "RN.1234567891"
     },
     {
       "id": 6,
-      "name":"Spacious luxury apartment with stunning panoramic views",
-      "price": "100,000 AED / Year" ,
+      "name": "Spacious luxury apartment with stunning panoramic views",
+      "price": "100,000 AED / Year",
       "closeBy": true,
       "rooms": 3,
       "baths": 3,
@@ -92,14 +92,111 @@
       "location": "Ocean Heights",
       "type": "Apartment",
       "floor": "Floor 6",
-      "city":"Dubai Marina",
+      "city": "Dubai Marina",
       "furniture": "Unfurnished",
       "reference number": "RN.1234567891"
     }
   ],
   "users": [
     {
-      "id": 1, "name": "", "likedHomes": []
+      "id": 1,
+      "name": "",
+      "likedHomes": []
+    },
+    {
+      "likedHomes": {
+        "id": 1,
+        "name": "Spacious luxury apartment with stunning panoramic views",
+        "price": "100,000 AED / Year",
+        "closeBy": true,
+        "rooms": 3,
+        "baths": 3,
+        "parking": 1,
+        "space": "4,175 sqft",
+        "location": "Ocean Heights",
+        "type": "Apartment",
+        "floor": "Floor 6",
+        "city": "Dubai Marina",
+        "furniture": "Unfurnished",
+        "reference number": "RN.1234567891"
+      },
+      "id": 2
+    },
+    {
+      "likedHomes": {
+        "id": 2,
+        "name": "Spacious luxury apartment with stunning panoramic views",
+        "price": "100,000 AED / Year",
+        "closeBy": true,
+        "rooms": 3,
+        "baths": 3,
+        "parking": 1,
+        "space": "4,175 sqft",
+        "location": "Ocean Heights",
+        "type": "Apartment",
+        "floor": "Floor 6",
+        "city": "Dubai Marina",
+        "furniture": "Unfurnished",
+        "reference number": "RN.1234567891"
+      },
+      "id": 3
+    },
+    {
+      "likedHomes": {
+        "id": 4,
+        "name": "Spacious luxury apartment with stunning panoramic views",
+        "price": "100,000 AED / Year",
+        "closeBy": true,
+        "rooms": 3,
+        "baths": 3,
+        "parking": 1,
+        "space": "4,175 sqft",
+        "location": "Ocean Heights",
+        "type": "Apartment",
+        "floor": "Floor 6",
+        "city": "Dubai Marina",
+        "furniture": "Unfurnished",
+        "reference number": "RN.1234567891"
+      },
+      "id": 4
+    },
+    {
+      "likedHomes": {
+        "id": 2,
+        "name": "Spacious luxury apartment with stunning panoramic views",
+        "price": "100,000 AED / Year",
+        "closeBy": true,
+        "rooms": 3,
+        "baths": 3,
+        "parking": 1,
+        "space": "4,175 sqft",
+        "location": "Ocean Heights",
+        "type": "Apartment",
+        "floor": "Floor 6",
+        "city": "Dubai Marina",
+        "furniture": "Unfurnished",
+        "reference number": "RN.1234567891"
+      },
+      "id": 5
+    },
+    {
+      "likedHomes": {
+        "id": 2,
+        "name": "Spacious luxury apartment with stunning panoramic views",
+        "price": "100,000 AED / Year",
+        "closeBy": true,
+        "rooms": 3,
+        "baths": 3,
+        "parking": 1,
+        "space": "4,175 sqft",
+        "location": "Ocean Heights",
+        "type": "Apartment",
+        "floor": "Floor 6",
+        "city": "Dubai Marina",
+        "furniture": "Unfurnished",
+        "reference number": "RN.1234567891"
+      },
+      "id": 6
     }
   ]
 }

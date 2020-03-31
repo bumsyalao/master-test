@@ -4,7 +4,10 @@ import styled from 'styled-components';
 import SearchBar from './SearchBar';
 import HomeCards from './HomeCards';
 
-const StyledHome = styled.div``;
+const StyledHome = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
 const StyledHomeHeader = styled.h3`
   color: #fff;
   margin-left: 3rem;
@@ -44,7 +47,7 @@ const Home = () => {
       <SearchBar searchHome={searchHome} />
       <StyledHomeHeader>Featured homes</StyledHomeHeader>
       <StyledHomeContainer>
-        { homes.map(home => <HomeCards home={home} />)}
+        {homes.map(home => <HomeCards key={home.id} home={home} />)}
       </StyledHomeContainer>
     </StyledHome>
   )
